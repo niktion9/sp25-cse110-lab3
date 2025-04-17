@@ -1,12 +1,13 @@
 Fill in the passphrases here.
-SofiaWasHere
+SofiaWasHere - 7
 HTMLRules
 iHeartWebDev
 ShraviBeatsReact
-coolcoolcool3x
-WongAvery
+coolcoolcool3x - 8
+WongAvery - q1
 JavaScriptRocks
 iHateC++
-ElaineFirst
-ThisIsJSyay
+ElaineFirst - 11
+ThisIsJSyay - 6
 listenToPetalcore
+2020_sucked
