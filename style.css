@@ -84,3 +84,19 @@ body {
     flex-direction: column;
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+
+.grid-box {
+  background-color: purple;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
