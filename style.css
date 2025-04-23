@@ -60,3 +60,27 @@ h1 {
   flex: 1;
   text-align: center;
 }
+
+
+body {
+  font-size: 18px;
+}
+
+
+@media (max-width: 1024px) {
+  body {
+    background-color: lavender;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: green;
+    font-size: 14px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+}
