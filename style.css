@@ -42,3 +42,21 @@ body {
 h1 {
   color: color-mix(in srgb, blue 40%, red 40%);
 }
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  background-color: #333;
+  padding: 10px;
+}
+
+.flex-box {
+  background-color: green;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
