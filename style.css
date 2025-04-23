@@ -66,6 +66,11 @@ body {
   font-size: 18px;
 }
 
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @media (max-width: 1024px) {
   body {
@@ -82,5 +87,32 @@ body {
 
   .flex-container {
     flex-direction: column;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+
+.grid-box {
+  background-color: purple;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.flex-container:has(.flex-box:hover) {
+  background-color: lavender;
+}
+.grid-container {
+  color: black;
+
+  .grid-box {
+    border: 2px dashed black;
   }
 }
